@@ -1,0 +1,162 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth; 
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-image: url(background2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    padding: 15px 4%;
+    width: 100%;
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 50px;
+}
+
+ul.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist li{
+    margin: 0 1rem;
+}
+
+.navlist li a{
+    display: inline-flex;
+    font-weight: 600;
+}
+
+.navlist li a:hover,.navlist li a.active{
+    background: yellow;
+    border-bottom: 3px solid yellow;
+    border-bottom-left-radius: 15%;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    grid-gap: .8rem;
+
+}
+
+.right-header a{
+    padding: 8px 10px;
+    margin: 4px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.login{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.sign_up{
+    color: #000;
+    background-color: yellow;
+}
+
+.sign_up:hover{
+    background-color: hsl(60, 100%, 80%);
+}
+
+/* ================ home ================= */
+section{
+    padding: 90px 8%;
+}
+
+.home{
+    min-height: 88vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    grid-gap: 20rem;
+    justify-content: center;
+}
+
+.info{
+    width: auto;
+}
+
+.info pre{
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.info p{
+    margin-top: 2rem;
+    width: 60%;
+    font-weight: 600;
+}
+
+.btn-view{
+    margin-top: 5rem;
+}
+
+.view{
+    color: #000;
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px 40px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.social{
+    display: flex;
+    width: 330px;
+    height: auto;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.social a{
+    width: 42px;
+    height: 42px;
+    font-size: 1.5rem;
+    background: #993737;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.bg-icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
